@@ -2,12 +2,13 @@ import random
 
 # Tabela de trading com valores de entrada e saída
 tabela_trading = {
+    100: 2000,
     200: 2000,
-    250: 2500,
-    300: 3000,
-    350: 3500,
-    400: 4000,
-    500: 5000
+    250: 2000,
+    300: 2000,
+    350: 2000,
+    400: 2000,
+    450: 2000
 }
 
 # Função para gerar um token aleatório com letras, números e caracteres especiais
@@ -27,7 +28,7 @@ def fazer_pix(valor):
         return "Valor de investimento não válido."
 
 # Programa principal
-print("Bem-vindo ao Urubu do PIX - Tabela Trading")
+print("Bem-vindo(a) ao Urubu do PIX 2")
 while True:
     try:
         valor_investimento = float(input("Digite o valor do investimento (em R$): "))  # Entrada de dados do usuário
