@@ -1,9 +1,7 @@
 import random
 
-# Definir a tabela de trading com valores de entrada e saída
+# Tabela de trading com valores de entrada e saída
 tabela_trading = {
-    50: 100,
-    100: 1000,
     200: 2000,
     250: 2500,
     300: 3000,
